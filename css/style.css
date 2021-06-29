@@ -52,5 +52,14 @@ section {
 }
 
 .bg-red{
-	background-color: red;
+    background-color: red;
 }
+.contenuto {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
