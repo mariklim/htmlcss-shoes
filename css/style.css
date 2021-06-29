@@ -15,3 +15,23 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 10;
+}
+/* menu */
+nav{
+    position: relative;
+}
+
+nav .header-menu{
+    position:absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.header-menu li,
+.header-menu li a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
