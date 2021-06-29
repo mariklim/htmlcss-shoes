@@ -49,13 +49,22 @@ nav .header-menu{
 /*Main*/
 section {
 	height: 100vh;
+    position: relative;
 }
 
 .bg-red{
     background-color: red;
 }
+
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-green{
+    background-color: seagreen;
+}
+
 .contenuto {
-	position: absolute;
+    position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
