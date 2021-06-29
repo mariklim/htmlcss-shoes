@@ -1,0 +1,17 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
