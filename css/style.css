@@ -24,6 +24,7 @@ nav{
 nav .header-menu{
     position:absolute;
     right: 0;
+    margin-top: 40px;
     margin-right: 40px;
 }
 
@@ -33,5 +34,23 @@ nav .header-menu{
     font-size: 20px;
     text-decoration: none;
     color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
+.header-menu li{
+    margin-left: 30px;
+}
+
+/*Main*/
+section {
+	height: 100vh;
+}
+
+.bg-red{
+	background-color: red;
+}
